@@ -1,7 +1,18 @@
-footer{
+.footer{
     position: fixed;
-    inset: auto 0 0 0 ;
+    inset: auto 0 0 0;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
+    padding: .5em 10vw .5em;
+
+    &__icon{
+        height: $iconSmall;
+        margin: 0 .5em;
+    }
+
+    &__impressum{
+        font-size: $f2;
+        display: none;
+    }
 }

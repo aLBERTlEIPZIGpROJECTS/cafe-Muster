@@ -3,12 +3,13 @@
 /* === go to subAtoms === */
 
 $primaryCol:        hsl($hue, $sat2, $lux2);
-$primaryColMuted:   hsl($hue, $sat1, $lux2);
+$primaryColDark:    hsl($hue, $sat2, $lux15);
+$primaryColT:    hsla($hue, $sat2, $lux1, .5);
 
-$compCol:           hsl($complementary, $sat2, $lux2);
+$white:             hsl($hue, 5%, $lux3);
 
-$black:             hsl($hue, $sat, $lux);
-$grey1:             hsl($hue, $sat, $lux1);
-$grey2:             hsl($hue, $sat, $lux2);
-$grey3:             hsl($hue, $sat, $lux3);
-$white:             hsl($hue, $sat, 100%);
+$black:             hsl(0, 0%, 4%);
+
+$blackT:            hsla(0, 0%, 4%, .8);
+
+$bgCol:             hsl($hue+180, 15%, 5%);

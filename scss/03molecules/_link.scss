@@ -1,3 +1,18 @@
 a{
+    color: $white;
+    font-size: $f3;
     text-decoration: none;
+    
+    &:hover{
+        color: $primaryCol;
+    }
+    &:active{
+        color: $primaryCol;
+        background-color: $white;
+    }
+    &:focus{
+        color: $primaryCol;
+        font-weight: 700;
+        background-color: $primaryCol;
+    }
 }

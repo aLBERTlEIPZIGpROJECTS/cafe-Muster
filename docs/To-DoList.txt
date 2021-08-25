@@ -1,1 +1,3 @@
-convert colorCalculator and fontSize to scss loops
+burger y social media icon white
+
+wtf happens in the footer-BG??

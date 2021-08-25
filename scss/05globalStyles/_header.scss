@@ -1,11 +1,12 @@
-header, footer{
-    padding: 5vh 20vw;
+header{
+    padding: .5em 10vw .5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: $grey3;
+    background-color: $blackT;
 }
 
-main{
-    margin: 0 20vw;
+    
+.ext-menu{
+    display: none;
 }
