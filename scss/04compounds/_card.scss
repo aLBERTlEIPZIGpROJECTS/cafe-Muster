@@ -7,6 +7,16 @@
     width: 66vw;
     margin: .5em 0;
 
+    &--emblema{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        background-color: $blackT;
+        width: 66vw;
+        margin: .5em 0;
+    }
+
     /* GENERAL STYLES */
 
     &__txt--big{

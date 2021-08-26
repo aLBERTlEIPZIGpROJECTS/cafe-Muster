@@ -1,7 +1,66 @@
 @media screen and (min-width: 768px){
  
-    
+    .card{
+
+        &__txt--big{
+            font-size: $f3;
+        }
+
+        &__txt--med{
+            font-size: $f2;
+        }
+
+        &__txt--small{
+            font-size: $f15;
+        }
+    }
+
+    .card--emblema{
+        width: 35vw;
+    }
+
+    .card__next-event{
+
+        background: linear-gradient(149deg, $blackT 50%, $primaryColT 50%);
+        margin: 7vh 0;
+
+    }
+
+    .card__kontakt{
+
+        background: linear-gradient(13deg, $blackT 50%, $primaryColT 50%);  
+
+        margin-bottom: 6.5vh;
+
+        &--left{
+            position: relative;
+            left: 10vw;
+        }
+
+        &--right{
+            position: relative;
+            left: -15vw;
+        }
+
+    }
+
+    .card__main-event{
+
+        background: linear-gradient(146.5deg, $blackT 50%, $primaryColT 50%);
+        &--left{
+            position: relative;
+            left: -15vw;
+        }
+
+    }
 
 
-    
+    .orient-right{
+        position: relative;
+        left: 10vw;
+        bottom: 1vh;
+    }
+
+
+
 }
