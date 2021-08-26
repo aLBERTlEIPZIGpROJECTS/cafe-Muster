@@ -460,6 +460,14 @@ a:focus {
   background-size: cover;
 }
 
+.impressum__body {
+  background-color: #262626;
+}
+
+.impressum__body address {
+  padding-left: 20vw;
+}
+
 iframe {
   width: 100vw;
   height: 33vh;
@@ -608,7 +616,7 @@ form {
   justify-content: space-between;
   align-items: center;
   margin: 0 20vw;
-  background-color: rgba(10, 10, 10, 0.8);
+  background-color: rgba(231, 229, 228, 0.5);
 }
 
 :root {
@@ -687,9 +695,15 @@ main {
   margin-bottom: 3em;
 }
 
-/* @media screen and (min-width: 768px){
-    
-} */
+.lat-txt {
+  position: relative;
+  left: 5em;
+}
+
+.orient-right {
+  text-align: right;
+}
+
 /* @media screen and (min-width: 1440px){
     
 } */

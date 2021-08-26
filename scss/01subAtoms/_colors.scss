@@ -8,7 +8,11 @@ $primaryColT:       hsla($hue, $sat3, $lux2, .9);
 
 $white:             hsl($hue, 5%, $lux3);
 
+$whiteMuted:        hsla($hue, 5%, $lux3, .5);
+
 $black:             hsl(0, 0%, 4%);
+
+$blackMuted:        hsl(0, 0%, 15%);
 
 $blackT:            hsla(0, 0%, 4%, .8);
 

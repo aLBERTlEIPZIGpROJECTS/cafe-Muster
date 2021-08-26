@@ -15,3 +15,11 @@
     background: url(/img/nathan-dumlao-zUNs99PGDg0-unsplash.jpg);
     background-size: cover;
 }
+
+.impressum__body{
+    background-color: $blackMuted;
+
+    address{
+        padding-left: 20vw;
+    }
+}
