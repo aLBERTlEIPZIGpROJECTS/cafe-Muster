@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: .5em 0 .5em;
+    padding: 1em;
     background-color: $blackT;
     width: 66vw;
     margin: .5em 0;
+
+    /* GENERAL STYLES */
 
     &__txt--big{
         font-size: $f25;
@@ -17,29 +19,75 @@
         font-size: $f1;
     }
 
-    &--left{
-        position: relative;
-        right: 5em;
-    }
-
-    &--right{
-        position: relative;
-        left: 5em;
-        bottom: 2em;
-    }
-
-    &_txt--right{
+    &__txt--right{
         text-align: right;
     }
 
-    &--next-event{
+    /* STYLES FOR EVERY PAGE */
+
+    &__next-event{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: .5em 0 .5em;
+        padding: 1em;
+        background: linear-gradient(137deg, $blackT 50%, $primaryColT 50%);
         width: 66vw;
         margin: .5em 0;
-        background: linear-gradient(136deg, $primaryCol 50%, $blackT 50%);
+        &-left{
+            position: relative;
+            left: -5em;
+        }
+        &-right{
+            position: relative;
+            left: 5em;
+        }
+    }
+    
+    &__main-event{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        background: linear-gradient(137deg, $blackT 50%, $primaryColT 50%);
+        width: 66vw;
+        margin: .5em 0;
+
+        &__txt--big{
+            font-size: $f2;
+        }
+
+        &--left{
+            position: relative;
+            left: -3em;
+        }
+
+        &--right{
+            position: relative;
+            left: 5em;
+        }
     }
 
+
+    &__kontakt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1em;
+        background: linear-gradient(25deg, $blackT 50%, $primaryColT 50%);        
+        width: 66vw;
+        margin: .5em 0;
+
+        &--left{
+            position: relative;
+            left: 1.25em;
+        }
+        &--right{
+            position: relative;
+            left: -5em;
+        }
+    }
+
+
+
 }
+

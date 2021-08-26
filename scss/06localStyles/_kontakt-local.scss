@@ -1,0 +1,17 @@
+
+
+.where{
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $blackT;
+        width: 66vw;
+        margin-bottom: 3em;
+    }
+}

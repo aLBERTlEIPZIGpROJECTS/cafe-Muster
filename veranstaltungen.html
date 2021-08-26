@@ -11,11 +11,11 @@
     <link rel="stylesheet" href="../css/main.css" />
     <title>Café Sandor</title>
   </head>
-  <body class="event__body">
+  <body class="events__body">
     <header>
       <h1>Café Sandor</h1>
       <img src="./icon/menu.svg" alt="burger menu">
-      <ul>
+      <ul class="ext-menu">
         <li>
           <a href="#">Home</a>
           <a href="./veranstaltungen.html">Events</a>
@@ -26,15 +26,17 @@
     <main>
      
       <article>
-        <section class="concert-date">
-          <p>Nächster Donnerstag</p>
-          <p>25. August <br>20:00</p>
-          <p>Eintritt <span>Frei</span></p>
-        </section>
-        <section>
-          <p>St. James <br>Internally</p>
-          <p>Blues - Old Time - Songwritter</p>
-        </section>
+        <div class="card__main-event">
+          <section class="card__main-event--left">
+            <p class="card__main-event__txt--big">Nächster Donnerstag</p>
+            <p class="card__txt--big">25. August <br>20:00</p>
+            <p class="card__txt--small">Eintritt <span class="card__txt--med">Frei</span></p>
+          </section>
+          <section class="card__main-even--right">
+            <p class="card__txt--big">St. James <br>Internally</p>
+            <p class="card__txt--small">Blues - Old Time - Songwritter</p>
+          </section>
+        </div>
       </article>
 
     </main>
