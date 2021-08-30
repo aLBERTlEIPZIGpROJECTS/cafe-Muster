@@ -1,0 +1,28 @@
+        @media screen and (min-width: 320px) and (min-height: 568px) {
+    
+            .card{
+
+                &__next-event{
+                    background: linear-gradient(132deg, $blackT 50%, $primaryColT 50%);
+                    height: 42vh;
+                } 
+                
+                &-right{
+                    position: relative;
+                    left: 5em;
+                    top: 3em;
+                }
+
+                &__main-event {
+
+                    background: linear-gradient(130deg, $blackT 50%, $primaryColT 50%); 
+                }
+
+                &__kontakt {
+
+                    background: linear-gradient(27.5deg, $blackT 50%, $primaryColT 50%); 
+
+                }
+            }
+        
+        }

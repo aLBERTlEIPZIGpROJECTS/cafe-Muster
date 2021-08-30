@@ -1,0 +1,67 @@
+@media screen and (min-width: 1440px) and (min-height: 900px) {
+
+
+    h1{
+        font-size: 17rem;
+        position: relative;
+        top: -10.5vh;
+    }
+
+    h2{
+        position: relative;
+        left: -8vw;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    .img--small{
+        height: 15vw;
+        width: 15vw;
+    }
+
+    .img-smaller{
+        height: 13vw;
+        width: 13vw;
+    }
+
+    .gallery__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+
+    .gallery__other{
+        display: flex;
+        flex-direction: column;
+        margin-left: 5vw;
+        position: relative;
+        top: -3.5vh;
+    }
+
+    blockquote{
+        font-size: $f3;
+        min-width: 75ch;
+    }
+
+    iframe{
+        width: 75vw;
+        height: 25vw;
+    }
+
+    nav{
+        position: fixed;
+        top: 75vh;
+        left: 90vw;
+    }
+
+    .social-bar{
+        position: fixed;
+        top: 75vh;
+        left: 5vw;
+        align-items: center;
+    }
+
+}

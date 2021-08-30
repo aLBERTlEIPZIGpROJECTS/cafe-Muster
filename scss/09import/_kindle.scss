@@ -1,0 +1,17 @@
+@media screen and (min-width: 360px) and (min-height: 740px) {
+
+    h1{
+        font-size: 13rem;
+        position: relative;
+        top: 1.7vh;
+    }
+
+    .hero-comment_txt{
+        font-size: $f3;
+    }
+
+    p{
+        letter-spacing: .05em;
+        line-height: 1.6em;
+    }
+}

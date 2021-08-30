@@ -531,8 +531,9 @@ nav a {
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  background: linear-gradient(137deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+  background: linear-gradient(150deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
   width: 66vw;
+  height: 66vw;
   margin: .5em 0;
 }
 
@@ -544,6 +545,7 @@ nav a {
 .card__next-event-right {
   position: relative;
   left: 5em;
+  top: -3em;
 }
 
 .card__main-event {
@@ -551,7 +553,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   padding: 1em;
-  background: linear-gradient(137deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+  background: linear-gradient(133deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
   width: 66vw;
   margin: .5em 0;
 }
@@ -722,117 +724,79 @@ main {
   text-align: right;
 }
 
-@media screen and (min-width: 768px) {
-  .card__txt--big {
-    font-size: 3.7rem;
-  }
-  .card__txt--med {
-    font-size: 2.1rem;
-  }
-  .card__txt--small {
-    font-size: 1.8rem;
-  }
-  .card--emblema {
-    width: 35vw;
-  }
+@media screen and (min-height: 740px) {
   .card__next-event {
-    background: linear-gradient(149deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-    margin: 7vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background: linear-gradient(135deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+    width: 66vw;
+    height: 66vw;
+    margin: .5em 0;
   }
-  .card__kontakt {
-    background: linear-gradient(13deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-    margin-bottom: 6.5vh;
-  }
-  .card__kontakt--left {
+  .card__next-event-left {
     position: relative;
-    left: 10vw;
+    left: -5em;
   }
-  .card__kontakt--right {
+  .card__next-event-right {
     position: relative;
-    left: -15vw;
-  }
-  .card__main-event {
-    background: linear-gradient(146.5deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-  }
-  .card__main-event--left {
-    position: relative;
-    left: -15vw;
-  }
-  .orient-right {
-    position: relative;
-    left: 10vw;
-    bottom: 1vh;
+    left: 6em;
+    top: -3em;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .card {
-    width: 40vw;
-  }
-  .card__txt--big {
-    font-size: 3.7rem;
-  }
-  .card__txt--med {
-    font-size: 2.1rem;
-  }
-  .card__txt--small {
-    font-size: 1.8rem;
-  }
-  .card--emblema {
-    box-sizing: border-box;
-    width: 12vw;
-    height: 12vw;
-    padding: 3em;
-  }
-  .card__next-event {
-    background: linear-gradient(158deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-    margin: 7vh 0;
-    width: 40vw;
+@media screen and (min-width: 414px) and (min-height: 846px) {
+  .card__main-event {
+    background: linear-gradient(137deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
   }
   .card__kontakt {
-    background: linear-gradient(9deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-    width: 40vw;
-    margin-bottom: 6.5vh;
-  }
-  .card__kontakt--left {
-    position: relative;
-    left: 10vw;
-  }
-  .card__kontakt--right {
-    position: relative;
-    left: -15vw;
-  }
-  .card__main-event {
-    width: 40vw;
-    background: linear-gradient(156.5deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
-  }
-  .card__main-event--left {
-    position: relative;
-    left: -5vw;
-  }
-  .orient-right {
-    position: relative;
-    left: 5vw;
-    bottom: 1vh;
-  }
-  .iframe {
-    width: 40vw;
-  }
-  .social-media {
-    margin-bottom: 1vh;
-  }
-  .header__icon {
-    display: none;
-  }
-  .ext-menu {
-    display: block;
-  }
-  .ext-menu__link {
-    font-size: 2.1rem;
-    margin: 0 1em;
+    background: linear-gradient(22.5deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
   }
 }
 
+@media screen and (min-width: 320px) and (min-height: 568px) {
+  .card__next-event {
+    background: linear-gradient(132deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+    height: 42vh;
+  }
+  .card-right {
+    position: relative;
+    left: 5em;
+    top: 3em;
+  }
+  .card__main-event {
+    background: linear-gradient(130deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+  }
+  .card__kontakt {
+    background: linear-gradient(27.5deg, rgba(10, 10, 10, 0.8) 50%, rgba(210, 83, 45, 0.9) 50%);
+  }
+}
+
+@media screen and (min-width: 360px) and (min-height: 640px) {
+  .card-right {
+    position: relative;
+    left: 12em;
+  }
+}
+
+/* 
+@import 'iphone6-8';
+@import 'iphoneX';
+@import 'lgOptimus';
+@import 'pixel2';
+@import 'pixel2XL';
+@import 'nexus5';
+@import 'iphone6-8+';
+@import 'iphoneXR';
+@import 'nexus7';
+@import 'ipad';
+@import 'ipadPro';
+@import 'nexusX';
+@import 'ipadPro12.9';
+@import 'laptopMDPI';
+@import 'laptopTouch';
+@import 'laptopHIDPI'; */
 .test {
   outline: 1px solid red;
 }

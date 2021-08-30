@@ -40,8 +40,9 @@
         flex-direction: column;
         align-items: center;
         padding: 1em;
-        background: linear-gradient(137deg, $blackT 50%, $primaryColT 50%);
+        background: linear-gradient(150deg, $blackT 50%, $primaryColT 50%);
         width: 66vw;
+        height: 66vw;
         margin: .5em 0;
         &-left{
             position: relative;
@@ -50,6 +51,7 @@
         &-right{
             position: relative;
             left: 5em;
+            top: -3em;
         }
     }
     
@@ -58,7 +60,7 @@
         flex-direction: column;
         align-items: center;
         padding: 1em;
-        background: linear-gradient(137deg, $blackT 50%, $primaryColT 50%);
+        background: linear-gradient(133deg, $blackT 50%, $primaryColT 50%);
         width: 66vw;
         margin: .5em 0;
 

@@ -1,0 +1,29 @@
+@media screen and (min-width: 1280px) and (min-height: 800px) {
+
+    h1{
+        position: relative;
+        top: 2.75vh;
+    }
+
+    fieldset{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60vw;
+        outline: 1px solid red;
+    }
+
+    form{
+
+
+        &__input{
+            max-width: 5px;
+        }
+
+        &__txt{
+            max-width: 40vw;
+            min-width: 40vw;
+        }
+
+    }
+
+}

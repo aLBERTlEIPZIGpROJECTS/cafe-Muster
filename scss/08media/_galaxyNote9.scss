@@ -1,0 +1,17 @@
+@media screen and (min-width: 414px) and (min-height: 846px) {
+    
+    .card{
+
+        &__main-event {
+            background: linear-gradient(137deg, $blackT 50%, $primaryColT 50%);
+        }
+
+        &__kontakt {
+            background: linear-gradient(22.5deg, $blackT 50%, $primaryColT 50%);    
+
+        }
+
+    }
+
+
+}
