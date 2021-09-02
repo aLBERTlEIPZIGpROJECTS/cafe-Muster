@@ -25,4 +25,17 @@
                 }
             }
         
+            .card__main-event--left{
+                position: relative;
+                left: -2vh;
+            }
+            .card__main-even--right{
+                position: relative;
+                left: 12vw;
+                top: -2vh;
+            }
+            .card__kontakt--right{
+                position: relative;
+                left: -10vw;
+            }
         }

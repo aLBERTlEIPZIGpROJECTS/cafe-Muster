@@ -1,9 +1,5 @@
 @media screen and (min-width: 1280px) and (min-height: 800px) {
 
-    h1{
-        position: relative;
-        top: 2.75vh;
-    }
 
     fieldset{
         flex-direction: row;
@@ -24,6 +20,18 @@
             min-width: 40vw;
         }
 
+    }
+    .card__main-event--left{
+
+        position: relative;
+        left: -17vw;
+        top: 5vh;
+       }
+    
+    .card__main-even--right{
+        position: relative;
+        left: 17vw;
+        top: -5vh;
     }
 
 }
